@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
+
+       @media screen and (min-width:375px) {
+
+      
+  body {
+    background: #f2f2f2;
+    font-family: " Big Shoulders Display ", sans-serif;
+    font-style: normal;
+    font-size:18px;
+    line-height:28px;
+    background-image: url(./assets/mobile/image-hero@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain; 
+    text-align: start;
+    
+
+
+  }
+
+
+
+  . img {
+    max-width: 100%;
+  }
+
+
+
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+    align-items: left;
+    padding-left:4%;
+    padding-right:4%;
+    
+  }
+
+
+  h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color:#151515;
+    margin-bottom: 32px;
+
+    
+
+
+  }
+  .btn-anchor{
+    text-decoration: none;
+
+  }
+
+
+  .landing-btn {
+    width: 260px;
+    height: 72px;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+   
+  }
+  
+  .btn-text {
+    text-transform: uppercase;
+    background: #151515;
+    width: 204px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .btn-icon {
+    background: #d5966c;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .location-but {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .our-location{
+    background-color: #151515;
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23.94px;
+    letter-spacing: 3.63636px;
+    text-transform: uppercase;
+    
+
+  }
+
+  .right {
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+
+
+  }
+  .right-sign {
+    align-items: center;
+  }
+
+
+  .firstp {
+    margin-bottom: 32px;
+  }
+
+  .location-but {
+
+    margin-bottom: 120px;
+  }
+
+  h2  {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  margin-bottom:21px;
+
+
+  }
+  .yourd{
+    color:#151515
+     }
+  
+  .wander {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    margin-left:16px;
+    margin-right:16px;
+
+  }
+
+
+  .text-cube-lower{
+    background-color:#151515;
+    color:#FFFFFF
+    
+  }
+
+  .come {
+    color:#FFFFFF
+    margin-right:24px;
+    margin-left:24px;
+    margin-top:48px;
+    Font style: Black
+    Font size: 50px;
+    Line height: 45px;
+    Line height: 75%;
+    Align: Left;
+    Vertical align: Top;
+
+
+  }
+
+  .weare {
+    margin: 24px 24px 47px 24px;
+  }
+
+  .bottom-sec{
+    background-color: #151515;
+    margin-top: 120px;
+  }
+  
+  .modernartgal{
+    background: #FFFFFF;
+    margin-bottom: 38px;
+  }
+
+
+  .modernartgallery {
+   
+    
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23.94px;
+     text-transform: uppercase;
+    padding-top:48px ;
+    margin-left:32px;
+
+
+}
+
+.modernimage {
+  padding-top:48px;
+  margin-left:16px;
+}
+
+
+  .lastp{
+   
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-top: 38px;
+        margin-bottom: 38px;
+        max-width: 500px;
+        margin-left:32px;
+       
+          
+        
+  }
+
+
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.button-loc{
+  margin-bottom:120px;
+}
+
+.firstimage {
+  margin-top:15px;
+}
+
+
+
+
+/* location page */
+
+.location-img {
+  background-image: url("./assets/mobile/image-map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-bottom: 128%; */
+}
+
+
+
+ 
