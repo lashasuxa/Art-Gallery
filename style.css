@@ -12,7 +12,7 @@
       
   body {
     background: #f2f2f2;
-    font-family: " Big Shoulders Display ", sans-serif;
+    font-family:"Big Shoulders Display", sans-serif;
     font-style: normal;
     font-size:18px;
     line-height:28px;
@@ -28,7 +28,7 @@
 
 
 
-  . img {
+  .img {
     max-width: 100%;
   }
 
@@ -130,6 +130,14 @@
 
   .firstp {
     margin-bottom: 32px;
+    font-family: "Outfit";
+    font-style: Light ;
+    font-size:18px;
+    color: #444444;
+    font-weight: 300;
+    
+    
+
   }
 
   .location-but {
@@ -142,7 +150,7 @@
   font-weight: 900;
   font-size: 50px;
   line-height: 45px;
-  margin-bottom:21px;
+  margin-top:25px ;
 
 
   }
@@ -155,52 +163,56 @@
     font-size: 18px;
     line-height: 28px;
     color: #444444;
+    margin-top:21px;
   }
 
   .middle {
     display: flex;
     flex-direction: column;
-    margin-left:16px;
-    margin-right:16px;
+    padding-left:16px;
+    padding-right:16px;
+  
 
+  }
+  .middle-pic {
+    margin-top:32px;
   }
 
 
   .text-cube-lower{
     background-color:#151515;
-    color:#FFFFFF
+    color:#FFFFFF;
+    padding : 48px 24px 47px 24px;
+    
     
   }
 
   .come {
-    color:#FFFFFF
-    margin-right:24px;
-    margin-left:24px;
-    margin-top:48px;
-    Font style: Black
-    Font size: 50px;
-    Line height: 45px;
-    Line height: 75%;
-    Align: Left;
-    Vertical align: Top;
-
-
+    color:#FFFFFF ;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    
+    
+    
   }
 
   .weare {
-    margin: 24px 24px 47px 24px;
+    margin-top: 24px;
+    /* font-family:"Big Shoulders Display", sans-serif;
+    font-style: normal;
+    font-size:18px;
+    line-height:28px; */
+
   }
 
   .bottom-sec{
     background-color: #151515;
     margin-top: 120px;
+    padding: 48px 32px 48px 32px;
   }
   
-  .modernartgal{
-    background: #FFFFFF;
-    margin-bottom: 38px;
-  }
-
+ 
 
   .modernartgallery {
    
@@ -209,17 +221,15 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 23.94px;
-     text-transform: uppercase;
+    text-transform: uppercase;
     padding-top:48px ;
-    margin-left:32px;
-
+    
 
 }
 
 .modernimage {
-  padding-top:48px;
-  margin-left:16px;
-}
+  margin-bottom:38px;
+  }
 
 
   .lastp{
@@ -227,13 +237,10 @@
         font-weight: 300;
         font-size: 16px;
         line-height: 26px;
-        color: #FFFFFF;
-        margin-top: 38px;
-        margin-bottom: 38px;
-        max-width: 500px;
-        margin-left:32px;
-       
-          
+        color: #ffffff;
+        text-align: justify;
+        /* max-width: 500px; */
+    
         
   }
 
@@ -243,8 +250,9 @@
 
 .social-icons {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  margin-top: 38px;
+    width:100px;
+  column-gap: 20px;
 }
 
 
@@ -267,7 +275,3 @@
   background-size: cover;
   /* padding-bottom: 128%; */
 }
-
-
-
- 
